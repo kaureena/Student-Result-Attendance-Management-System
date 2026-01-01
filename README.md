@@ -22,3 +22,9 @@ This repository contains a **recreated and documented version** of the original 
 ## Project Scope
 
 This project focuses on a **console-based academic system** suitable for undergraduate coursework.
+
+## Modules
+- Student Management (CRUD + Validation)
+- Attendance Tracking (0–100% validation)
+- Results Management (Marks entry + pass/fail)
+- Report Generation (Attendance %, Subject Avg, Pass Rate)
