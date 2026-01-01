@@ -11,10 +11,14 @@ At the time, the system was implemented using **C programming**, **file handling
 
 This repository contains a **recreated and documented version** of the original academic project, uploaded later for reference and learning purposes.
 
-## 1. Project Introduction
-The Student Result & Attendance Management System is a simple academic project designed to manage student records, attendance, and examination results using structured programming and relational database concepts.
+## Project Objective
 
-The objective of this project is to apply fundamental concepts of:
-- Logic development
-- Database management
-- Data validation
+- Maintain student academic records
+- Record attendance information
+- Manage examination results
+- Generate basic reports
+- Apply structured programming concepts
+
+## Project Scope
+
+This project focuses on a **console-based academic system** suitable for undergraduate coursework.
