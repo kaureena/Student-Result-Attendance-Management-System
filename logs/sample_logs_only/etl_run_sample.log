@@ -1,0 +1,5 @@
+2026-01-02 12:05:01 | INFO  | ETL | run-0007 | ETL job started
+2026-01-02 12:05:02 | INFO  | ETL | run-0007 | Extract: Reading attendance from OLTP (rows=37200)
+2026-01-02 12:05:06 | INFO  | ETL | run-0007 | Transform: Cleaning attendance (duplicates removed=3)
+2026-01-02 12:05:14 | INFO  | ETL | run-0007 | Load: fact_attendance loaded (inserted=37200)
+2026-01-02 12:05:19 | INFO  | ETL | run-0007 | ETL completed successfully (duration=18s)

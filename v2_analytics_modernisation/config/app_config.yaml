@@ -1,0 +1,7 @@
+project:
+  name: student-analytics-platform
+  environment: local
+dq:
+  pass_threshold: 40
+  internal_max: 30
+  external_max: 70

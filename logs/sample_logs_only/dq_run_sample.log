@@ -1,0 +1,4 @@
+2026-01-02 12:05:21 | INFO  | DQ  | run-0007 | Data Quality checks started
+2026-01-02 12:05:22 | INFO  | DQ  | run-0007 | Rule: marks_not_exceed_max (failed=0)
+2026-01-02 12:05:23 | WARN  | DQ  | run-0007 | Rule: pass_fail_consistency (warn=2)
+2026-01-02 12:05:24 | INFO  | DQ  | run-0007 | DQ completed. Report generated.

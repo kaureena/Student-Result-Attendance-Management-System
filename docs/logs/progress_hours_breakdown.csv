@@ -1,0 +1,8 @@
+category,hours,examples
+v1_basic_app,6,CRUD modules + exports
+oltp_database,2,schema + seed data
+etl_pipeline,5,extract/transform/load + incremental
+data_quality,2,rules + reports
+warehouse_model,3,dims/facts star schema
+powerbi_dashboard,4,page map + KPIs (placeholder PBIX)
+documentation,3,README + mermaids + logs
