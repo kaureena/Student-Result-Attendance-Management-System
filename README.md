@@ -1,30 +1,34 @@
-# Student Result & Attendance Management System
+# Student Result & Attendance Management System (v1 + v2 Modernised)
 
-## Project Level
-BCA Academic Project
+This repository contains **two connected versions** of the same project:
 
-## Project Background
+- **v1 (BCA baseline):** a simple student administration system (students, attendance, marks, exports).
+- **v2 (Data Analytics modernisation):** the same dataset modernised into a reporting platform (ETL, warehouse, data quality, Power BI + SharePoint embedding plan).
 
-This project was originally developed in **2009** as part of the **Bachelor of Computer Applications (BCA)** academic curriculum.
+> **Note:** This is a portfolio repository using **synthetic / anonymised** sample data.
 
-At the time, the system was implemented using **C programming**, **file handling**, and **basic database concepts** commonly taught in undergraduate courses.
+## Repository layout (high level)
+- `v1_bca_basic_system/` — baseline application and local SQLite demo DB
+- `v2_analytics_modernisation/` — ETL + warehouse + DQ + API + Docker templates
+- `docs/` — documentation, Mermaid diagrams, and evidence-style logs
+- `logs/sample_logs_only/` — sample run logs (ETL/DQ/API)
 
-This repository contains a **recreated and documented version** of the original academic project, uploaded later for reference and learning purposes.
+## Quick start (v1)
+```bash
+cd v1_bca_basic_system
+python -m pip install -r requirements.txt
+python src/main.py
+```
 
-## Project Objective
+## Quick start (v2 ETL demo)
+```bash
+cd v2_analytics_modernisation
+python -m pip install -r requirements.txt
+python etl/run_etl.py --source sqlite --generate-samples
+python dq_data_quality/run_checks.py
+```
 
-- Maintain student academic records
-- Record attendance information
-- Manage examination results
-- Generate basic reports
-- Apply structured programming concepts
+## Important limitations (known)
+- **Power BI `.pbix`** cannot be generated programmatically here. A placeholder file is provided; replace it with your real PBIX when ready.
+- **Parquet outputs** are not included because Parquet writer libraries are not bundled in this environment. This template uses CSV for staged/curated outputs by default (you can switch to Parquet later by installing `pyarrow`).
 
-## Project Scope
-
-This project focuses on a **console-based academic system** suitable for undergraduate coursework.
-
-## Modules
-- Student Management (CRUD + Validation)
-- Attendance Tracking (0–100% validation)
-- Results Management (Marks entry + pass/fail)
-- Report Generation (Attendance %, Subject Avg, Pass Rate)
