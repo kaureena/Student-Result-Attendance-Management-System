@@ -1,7 +1,0 @@
-rules:
-  - id: marks_not_exceed_max
-    description: internal_marks <= 30 and external_marks <= 70.
-  - id: total_consistency
-    description: total = internal + external (where total is computed in v2).
-  - id: pass_fail_consistency
-    description: total >= 40 => Pass else Fail.

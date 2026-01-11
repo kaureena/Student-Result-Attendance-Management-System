@@ -1,8 +1,0 @@
-student_key,subject_key,date_key,class_key,term,internal_marks,external_marks,total_marks,pass_fail
-1,1,20260104,1,Term-1,23,54,77,Pass
-2,1,20260104,1,Term-1,19,49,68,Pass
-3,1,20260104,1,Term-1,15,28,43,Pass
-4,1,20260104,1,Term-1,21,41,62,Pass
-5,1,20260104,1,Term-1,24,46,70,Pass
-6,1,20260104,1,Term-1,18,52,70,Pass
-7,1,20260104,1,Term-1,20,45,65,Pass

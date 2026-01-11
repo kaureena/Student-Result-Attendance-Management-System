@@ -1,7 +1,0 @@
-oltp:
-  type: sqlite
-  sqlite_path: ../../v1_bca_basic_system/database/local.db
-
-warehouse:
-  type: sqlite
-  sqlite_path: ../warehouse/warehouse.db
