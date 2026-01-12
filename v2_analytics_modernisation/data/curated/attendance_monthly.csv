@@ -1,0 +1,10 @@
+year,month,month_name,class_id,class_name,student_id,roll_no,full_name,subject_id,subject_name,total_sessions,present_count,late_count,absent_count,present_or_late_count,attendance_pct
+2026,1,January,1,BCA 1st Year,1,01,Student A,2,Programming,4,3,1,0,4,100.0
+2026,1,January,1,BCA 1st Year,1,01,Student A,3,Statistics,4,4,0,0,4,100.0
+2026,1,January,1,BCA 1st Year,3,03,Student C,3,Statistics,4,1,0,3,1,25.0
+2026,1,January,1,BCA 1st Year,3,03,Student C,1,Mathematics,4,1,0,3,1,25.0
+2026,1,January,1,BCA 1st Year,2,02,Student B,3,Statistics,4,2,0,2,2,50.0
+2026,1,January,1,BCA 1st Year,3,03,Student C,2,Programming,4,0,0,4,0,0.0
+2026,1,January,1,BCA 1st Year,2,02,Student B,1,Mathematics,4,3,0,1,3,75.0
+2026,1,January,1,BCA 1st Year,1,01,Student A,1,Mathematics,4,4,0,0,4,100.0
+2026,1,January,1,BCA 1st Year,2,02,Student B,2,Programming,4,2,0,2,2,50.0

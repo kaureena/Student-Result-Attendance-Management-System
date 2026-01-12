@@ -1,0 +1,7 @@
+oltp:
+  type: PostgreSQL
+  sqlite_path: ../../v1_bca_basic_system/database/local.db
+
+warehouse:
+  type: PostgreSQL
+  sqlite_path: ../warehouse/warehouse.db

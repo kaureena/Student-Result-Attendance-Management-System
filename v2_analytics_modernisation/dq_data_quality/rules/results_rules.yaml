@@ -1,0 +1,8 @@
+# Results data quality rules (component-wise)
+rules:
+  - name: component_marks_not_exceed_max
+    description: Marks for each component must be <= configured max_marks.
+  - name: required_components_present
+    description: Each subject must have all configured components present for each student/term.
+  - name: totals_match_components
+    description: Result total_marks must equal sum(component marks) for the same student/subject/term.

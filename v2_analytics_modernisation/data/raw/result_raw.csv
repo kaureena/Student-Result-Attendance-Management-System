@@ -1,0 +1,10 @@
+student_id,subject_id,term,obtained_total,max_total,percentage,pass_fail
+1,4,Term-1,80,100,80.0,Pass
+1,6,Term-1,167,200,83.5,Pass
+1,5,Term-1,76,100,76.0,Pass
+2,4,Term-1,58,100,58.0,Pass
+2,6,Term-1,92,200,46.0,Pass
+2,5,Term-1,58,100,58.0,Pass
+3,4,Term-1,35,100,35.0,Fail
+3,6,Term-1,56,200,28.0,Fail
+3,5,Term-1,40,100,40.0,Pass

@@ -1,0 +1,5 @@
+rules:
+  - id: attendance_date_valid
+    description: Attendance date must be valid ISO date (YYYY-MM-DD).
+  - id: no_duplicate_student_date
+    description: No duplicate (roll_no, attendance_date) pairs.

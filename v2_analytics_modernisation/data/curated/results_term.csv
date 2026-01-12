@@ -1,0 +1,4 @@
+term_key,term_name,class_id,class_name,student_id,roll_no,full_name,total_obtained,total_max,overall_percentage,overall_pass_fail
+1,Term-1,1,BCA 1st Year,1,01,Student A,323,400,80.75,Pass
+1,Term-1,1,BCA 1st Year,3,03,Student C,131,400,32.75,Fail
+1,Term-1,1,BCA 1st Year,2,02,Student B,208,400,52.0,Pass
