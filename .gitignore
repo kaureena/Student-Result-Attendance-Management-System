@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (runtime logs not committed)
+v2_analytics_modernisation/runtime_logs/
+logs/*.log
+logs/**/*.log
+
+# Local DBs
+*.db
+v1_bca_basic_system/database/local.db
+v2_analytics_modernisation/warehouse/warehouse.db
+
+# Data outputs (generated)
+v2_analytics_modernisation/data/staged/
+v2_analytics_modernisation/data/curated/
+
+# IDE
+.vscode/
+.idea/
+
+# Power BI
+*.pbit
