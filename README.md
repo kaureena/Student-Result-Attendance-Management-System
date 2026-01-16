@@ -1,4 +1,23 @@
 # Student Result & Attendance Management System (v1 + v2 Modernised)
+**Overview**
+
+This repository documents an academic student management system originally developed during my Bachelor of Computer Applications (BCA) degree and later modernised using current data engineering and analytics technologies.
+
+The project demonstrates an end-to-end data lifecycle:
+
+OLTP design
+
+Data Quality checks
+
+ETL pipeline
+
+Data Warehouse modelling
+
+Business Intelligence dashboards
+
+All data used is synthetic and non-proprietary.
+
+
 
 This repository contains **two connected versions** of the same project:
 
