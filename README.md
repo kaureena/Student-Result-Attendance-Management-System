@@ -5,19 +5,59 @@ This repository documents an academic student management system originally devel
 
 The project demonstrates an end-to-end data lifecycle:
 
-OLTP design
+1.OLTP design
 
-Data Quality checks
+2.Data Quality checks
 
-ETL pipeline
+3.ETL pipeline
 
-Data Warehouse modelling
+4.Data Warehouse modelling
 
-Business Intelligence dashboards
+5.Business Intelligence dashboards
 
 All data used is synthetic and non-proprietary.
 
+🕒 **Project Timeline**
+    🎓 Original Academic Project
 
+    • Period: 2008 – 2009
+
+    • Degree: Bachelor of Computer Applications (BCA), 2nd Year
+
+    • University: Hemchandracharya North Gujarat University (HNGU), Patan
+
+    • Location: India
+
+    • Scope:
+
+        • Student attendance tracking
+
+        • Exam results management
+
+        • Basic reporting
+        
+🔄 Modernisation & Analytics Reconstruction
+
+• Period: Sept 2024 – Jan 2025
+
+• Purpose: Learning, modernisation, and analytics portfolio
+
+• Focus:
+
+    • Data engineering best practices
+
+`   • BI reporting aligned with modern organisational needs
+
+## 🛠️ Technology Stack
+
+| Layer | Tools / Technologies |
+|------|----------------------|
+| Database (OLTP) | PostgreSQL |
+| Data Warehouse | PostgreSQL (Star Schema) |
+| ETL | Python (pandas, SQLAlchemy) |
+| Data Quality | Python (Rule-based checks) |
+| BI & Reporting | Power BI |
+| Version Control | Git & GitHub |
 
 This repository contains **two connected versions** of the same project:
 
