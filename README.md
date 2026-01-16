@@ -5,19 +5,19 @@ This repository documents an academic student management system originally devel
 
 The project demonstrates an end-to-end data lifecycle:
 
-1.OLTP design
+1. OLTP design
 
-2.Data Quality checks
+2. Data Quality checks
 
-3.ETL pipeline
+3. ETL pipeline
 
-4.Data Warehouse modelling
+4. Data Warehouse modelling
 
-5.Business Intelligence dashboards
+5. Business Intelligence dashboards
 
-All data used is synthetic and non-proprietary.
 
 🕒 **Project Timeline**
+
     🎓 Original Academic Project
 
     • Period: 2008 – 2009
@@ -46,7 +46,7 @@ All data used is synthetic and non-proprietary.
 
     • Data engineering best practices
 
-`   • BI reporting aligned with modern organisational needs
+    • BI reporting aligned with modern organisational needs
 
 ## 🛠️ Technology Stack
 
