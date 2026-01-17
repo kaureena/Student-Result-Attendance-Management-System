@@ -1,3 +1,7 @@
+# Purpose: Run data quality checks on curated outputs
+# Triggers: push, pull_request
+# Notes: Stable workflow – update in place, do not delete/recreate
+
 name: run-dq-checks
 on: [push, pull_request]
 jobs:
