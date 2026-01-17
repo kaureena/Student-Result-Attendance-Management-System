@@ -18,6 +18,11 @@ v2_analytics_modernisation/runtime_logs/
 logs/*.log
 logs/**/*.log
 
+# Logs
+logs/
+v2_analytics_modernisation/logs/
+*.log
+
 # Local DBs
 *.db
 v1_bca_basic_system/database/local.db
