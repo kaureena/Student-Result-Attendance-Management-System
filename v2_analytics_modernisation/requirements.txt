@@ -1,6 +1,15 @@
+# Data processing
 pandas>=2.0.0
 python-dateutil>=2.8.2
 PyYAML>=6.0.0
+
+# Database & ETL
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# API
 fastapi>=0.110.0
 uvicorn>=0.27.0
+
+# Testing
 pytest>=8.0.0
