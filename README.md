@@ -38,7 +38,7 @@ The project demonstrates an end-to-end data lifecycle:
         
 🔄 Modernisation & Analytics Reconstruction
 
-• Period: Sept 2024 – Jan 2025
+• Period: Jan 2025
 
 • Purpose: Learning, modernisation, and analytics portfolio
 
@@ -64,6 +64,45 @@ This repository contains **two connected versions** of the same project:
 - **v1 (BCA baseline):** a simple student administration system (students, attendance, marks, exports).
 - **v2 (Data Analytics modernisation):** the same dataset modernised into a reporting platform (ETL, warehouse, data quality, Power BI + SharePoint embedding plan).
 
+## 🎯 Component-wise Marks Enhancement (v2)
+
+Version 2 of the system introduces **component-wise marks handling**, which significantly improves flexibility and analytical depth compared to v1.
+
+Instead of storing a single aggregated score per subject, marks are captured and processed at a **component level**, such as:
+
+- **Theory**
+- **Practical**
+- **Viva**
+- **Internal Assessment**
+- **Project**
+
+### Why this matters
+- Enables **fine-grained performance analysis**
+- Supports **subject-specific evaluation models**
+- Allows different **weightage rules** per component
+- Improves **data quality checks** at component level
+
+
+### Example
+For a single subject, a student’s result may consist of:
+
+| Component | Marks Obtained | Max Marks |
+|---------|----------------|-----------|
+| Theory | 45 | 70 |
+| Practical | 18 | 30 |
+| Internal | 8 | 30 |
+| Viva | 20 | 70 |
+
+The final subject result is derived by aggregating validated component scores using defined business rules.
+
+This enhancement is fully supported across:
+- OLTP schema
+- Star-schema data warehouse
+- ETL pipelines
+- Data Quality checks
+- Power BI reporting
+
+
 > **Note:** This is a portfolio repository using **synthetic / anonymised** sample data.
 
 ## Repository layout (high level)
@@ -83,11 +122,27 @@ python src/main.py
 ```bash
 cd v2_analytics_modernisation
 python -m pip install -r requirements.txt
-python etl/run_etl.py --source sqlite --generate-samples
+python etl/run_etl.py 
 python dq_data_quality/run_checks.py
 ```
 
 ## Important limitations (known)
 - **Power BI `.pbix`** cannot be generated programmatically here. A placeholder file is provided; replace it with your real PBIX when ready.
 - **Parquet outputs** are not included because Parquet writer libraries are not bundled in this environment. This template uses CSV for staged/curated outputs by default (you can switch to Parquet later by installing `pyarrow`).
+
+
+## CI / GitHub Actions
+
+This repository uses GitHub Actions for automated checks:
+
+- **run_tests.yml**  
+  Runs unit tests on every push and pull request.
+
+- **run_dq_checks.yml**  
+  Executes data quality validation rules on curated datasets.
+
+- **run_etl_smoke.yml**  
+  Performs a lightweight ETL smoke test to ensure pipelines run end-to-end.
+
+Earlier commits include experimentation with workflows; the current setup is stable.
 

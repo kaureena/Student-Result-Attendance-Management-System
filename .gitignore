@@ -13,6 +13,11 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Runtime logs
+runtime_logs/
+logs/
+*.log
+
 # Logs (runtime logs not committed)
 v2_analytics_modernisation/runtime_logs/
 logs/*.log
@@ -38,3 +43,5 @@ v2_analytics_modernisation/data/curated/
 
 # Power BI
 *.pbit
+
+src/
