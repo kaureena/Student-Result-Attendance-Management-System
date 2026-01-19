@@ -74,7 +74,7 @@ Instead of storing a single aggregated score per subject, marks are captured and
 - **Practical**
 - **Viva**
 - **Internal Assessment**
-- **Project**
+- 
 
 ### Why this matters
 - Enables **fine-grained performance analysis**
