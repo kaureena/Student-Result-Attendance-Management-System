@@ -1,0 +1,5 @@
+date,block,area,task,output_created,evidence_link,hours,status,notes
+01/02/2009,AM,v1,Initial schema and student module, v1_bca_basic_system/database/schema.sql, v1_bca_basic_system/src/student_module.py,2,Done,Tentative entry
+15/03/2009,PM,v1,Exports and UI screenshots, v1_bca_basic_system/export/result_report_sample.xlsx, v1_bca_basic_system/ui/screenshots/,1.5,Done,Tentative entry
+05/12/2025,AM,v2,ETL skeleton and config, v2_analytics_modernisation/etl/run_etl.py, docs/04_etl_design.md,2,Done,Tentative entry
+02/01/2026,AM,v2,DQ outputs and registers, v2_analytics_modernisation/reports/dq_summary.json, v2_analytics_modernisation/reports/dq_report.html,1,Done,Tentative entry

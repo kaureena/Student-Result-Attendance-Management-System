@@ -1,0 +1,7 @@
+category,hours,examples
+v1_baseline,20,CRUD + exports + screenshots
+v2_etl_pipeline,12,extract/transform/load
+v2_data_quality,6,rules + reports
+v2_warehouse_model,8,star schema + component dim/fact
+powerbi_evidence,5,screenshots + KPI mapping
+documentation,10,docs + diagrams + logs

@@ -1,0 +1,2 @@
+issue_id,run_id,rule,affected_key,severity,status,owner,resolution,opened_date,closed_date
+DQ-001,run-0001,totals_match_components,roll_no=BCA3-003|subject=Relational DBMS|term=Term-1,WARN,OPEN,Reena,Recompute totals during load,2025-12-12,
