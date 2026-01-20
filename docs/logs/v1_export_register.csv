@@ -1,0 +1,3 @@
+export_name,generated_by,filters,columns_included,example_path,last_updated
+attendance_report_sample.xlsx,Reports module,Class=BCA-3;Date range,roll_no;full_name;date;present,v1_bca_basic_system/export/attendance_report_sample.xlsx,10/03/2009
+result_report_sample.xlsx,Reports module,Class=BCA-3;Term-1,roll_no;full_name;subject;total;pass_fail,v1_bca_basic_system/export/result_report_sample.xlsx,10/03/2009

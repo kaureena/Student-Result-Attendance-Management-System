@@ -1,0 +1,11 @@
+Category,Hours,Description
+PLAN,4,Scope and architecture decisions
+ETL,10,ETL scripts and data zones
+DQ,6,Rules + reports + issue handling
+WARE,6,Star schema modelling
+BI,5,KPI mapping and evidence
+API,4,API and tests (if used)
+DOCS,6,Docs/mermaid/screenshots
+OPS,4,"CI, registers, packaging discipline"
+QA,2,Validation and tidy
+TOTAL,47,

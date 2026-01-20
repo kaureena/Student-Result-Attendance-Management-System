@@ -1,0 +1,8 @@
+Category,Hours,Description
+PLAN,6,Scope definition and module design
+DEV,15,Students/Attendance/Results implementation
+DATA,10,"Schema, seed, demo DB, exports"
+QA,6,Manual checks and fixes
+DOCS,8,Screenshots and documentation
+OPS,3,Packaging and demo readiness
+TOTAL,48,

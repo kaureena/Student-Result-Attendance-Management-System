@@ -1,0 +1,3 @@
+refresh_id,run_id,refresh_time,status,duration_seconds,notes
+PBI-001,run-0001,2025-12-13 07:02,OK,35,Scheduled refresh sample
+PBI-002,run-0002,2026-01-03 07:02,OK,18,Incremental refresh sample
