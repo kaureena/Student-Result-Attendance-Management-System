@@ -1,0 +1,2 @@
+run_id,run_date,dq_status,outputs
+run-0001,2025-12-12,PASS_WITH_WARN,dq_summary.json;dq_report.html

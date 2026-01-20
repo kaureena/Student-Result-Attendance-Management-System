@@ -1,0 +1,22 @@
+{
+  "run_id": "run-0001",
+  "date": "2025-12-12",
+  "overall_status": "PASS_WITH_WARN",
+  "rules": [
+    {
+      "name": "marks_not_exceed_max",
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "name": "required_components_present",
+      "status": "PASS",
+      "failed": 0
+    },
+    {
+      "name": "totals_match_components",
+      "status": "WARN",
+      "failed": 1
+    }
+  ]
+}
