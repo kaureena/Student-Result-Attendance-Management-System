@@ -111,6 +111,24 @@ This enhancement is fully supported across:
 - `docs/` — documentation, Mermaid diagrams, and evidence-style logs
 - `logs/sample_logs_only/` — sample run logs (ETL/DQ/API)
 
+## Quick visuals (diagram + screenshot)
+
+**KPI tree (Mermaid)**
+- See: `docs/mermaid/kpi_tree.mmd`
+
+If you want it to **render directly on GitHub**, paste this into README:
+
+```mermaid
+%% include the contents of docs/mermaid/kpi_tree.mmd here
+```
+
+**Results entry screen (v1 UI)**
+- Screenshot: `v1_bca_basic_system/ui/screenshots/ui_05_results.png`
+
+(Optional: embed it)
+```md
+![Results entry screen](v1_bca_basic_system/ui/screenshots/ui_05_results.png)
+
 ## Quick start (v1)
 ```bash
 cd v1_bca_basic_system
