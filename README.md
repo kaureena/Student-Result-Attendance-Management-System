@@ -131,10 +131,7 @@ flowchart TD
   C3 --> C32[Practical]
   C3 --> C33[Viva]
   C3 --> C34[Internal]
-  C3 --> C35[Project]
-
-
-
+```
 ## Quick start (v1)
 ```bash
 cd v1_bca_basic_system
