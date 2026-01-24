@@ -19,7 +19,7 @@ logs/
 *.log
 
 # Logs (runtime logs not committed)
-v2_analytics_modernisation/runtime_logs/
+#v2_analytics_modernisation/runtime_logs/
 logs/*.log
 logs/**/*.log
 
