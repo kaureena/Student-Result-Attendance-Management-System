@@ -1,0 +1,21 @@
+# Expected output (ETL smoke) — sample
+
+Command:
+  python v2_analytics_modernisation/etl/run_etl.py
+
+Expected console highlights:
+  - Reading config OK
+  - Extract: <source> OK
+  - Transform: staged outputs written OK
+  - Load: curated outputs written OK
+  - Completed successfully
+
+Files produced (example):
+  v2_analytics_modernisation/data_output/staged/stg_attendance.csv
+  v2_analytics_modernisation/data_output/staged/stg_result.csv
+  v2_analytics_modernisation/data_output/curated/attendance_monthly.csv
+  v2_analytics_modernisation/data_output/curated/results_term.csv
+
+Notes:
+  - This is synthetic/sample data only.
+  - Replace placeholder lines with the real console output from a successful run.

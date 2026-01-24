@@ -1,0 +1,15 @@
+# Expected output (DQ checks) — sample
+
+Command:
+  python v2_analytics_modernisation/dq_data_quality/run_checks.py
+
+Expected console highlights:
+  - Loaded rule catalogue OK
+  - Checks executed: <n>
+  - Failures: <0 or n> (if failures, recorded in DQ issue register)
+  - Report generated: v2_analytics_modernisation/reports/dq_report.html
+  - Summary generated: v2_analytics_modernisation/reports/dq_summary.json
+  - Completed successfully
+
+Notes:
+  - Replace placeholders with the real console output from a successful run.

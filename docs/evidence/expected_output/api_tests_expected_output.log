@@ -1,0 +1,10 @@
+# Expected output (API tests) — sample
+
+Command:
+  pytest v2_analytics_modernisation/api_service/tests -q
+
+Expected console highlights:
+  ... 3 passed in <time>s
+
+Notes:
+  - Replace placeholders with the real test output from a successful run.
