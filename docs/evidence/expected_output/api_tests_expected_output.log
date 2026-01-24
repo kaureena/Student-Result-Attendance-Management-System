@@ -1,10 +1,15 @@
 # Expected output (API tests) — sample
 
 Command:
-  pytest v2_analytics_modernisation/api_service/tests -q
+  python -m pytest api_service/tests
 
 Expected console highlights:
-  ... 3 passed in <time>s
+  collected 3 items
 
-Notes:
-  - Replace placeholders with the real test output from a successful run.
+api_service\tests\test_attendance.py .                                                                           [ 33%]
+api_service\tests\test_results.py .                                                                              [ 66%]
+api_service\tests\test_students.py .                                                                             [100%]
+
+================================================== 3 passed in 0.46s ==================================================
+
+

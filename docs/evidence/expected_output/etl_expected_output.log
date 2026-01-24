@@ -4,11 +4,15 @@ Command:
   python v2_analytics_modernisation/etl/run_etl.py
 
 Expected console highlights:
-  - Reading config OK
-  - Extract: <source> OK
-  - Transform: staged outputs written OK
-  - Load: curated outputs written OK
-  - Completed successfully
+2026-01-24 17:25:44,586 | INFO | etl | Extracting from OLTP...
+2026-01-24 17:25:44,701 | INFO | etl | Transforming...
+2026-01-24 17:25:44,767 | INFO | etl | Loading dimensions (UPSERT)...
+2026-01-24 17:25:44,967 | INFO | etl | Loading facts (UPSERT)...
+2026-01-24 17:25:45,085 | INFO | etl | ETL done ✅
+2026-01-24 17:25:45,085 | INFO | etl | Creating curated views (dw.v_curated_*) ...
+2026-01-24 17:25:45,097 | INFO | etl | Curated views ready ✅
+2026-01-24 17:25:45,098 | INFO | etl | Exporting curated files...
+2026-01-24 17:25:45,113 | INFO | etl | Curated files saved to data_output\curated
 
 Files produced (example):
   v2_analytics_modernisation/data_output/staged/stg_attendance.csv
@@ -16,6 +20,4 @@ Files produced (example):
   v2_analytics_modernisation/data_output/curated/attendance_monthly.csv
   v2_analytics_modernisation/data_output/curated/results_term.csv
 
-Notes:
-  - This is synthetic/sample data only.
-  - Replace placeholder lines with the real console output from a successful run.
+
