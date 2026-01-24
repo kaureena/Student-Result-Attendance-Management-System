@@ -1,0 +1,4 @@
+# Ignore all runtime logs
+*
+!README.md
+!.gitignore
