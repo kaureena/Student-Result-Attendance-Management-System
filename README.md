@@ -111,29 +111,29 @@ This enhancement is fully supported across:
 - `docs/` — documentation, Mermaid diagrams, and evidence-style logs
 - `logs/sample_logs_only/` — sample run logs (ETL/DQ/API)
 
-
----
-
 ## Quick visuals (diagram + screenshot)
 
 **KPI tree (Mermaid)**
 - See: `docs/mermaid/kpi_tree.mmd`
 
-If you want it to **render directly on GitHub**, paste this into README:
+If you want it to render directly on GitHub, paste the diagram code here:
 
 ```mermaid
-%% include the contents of docs/mermaid/kpi_tree.mmd here
-```
+flowchart TD
+  A[Student Success KPIs]
+  A --> B[Attendance]
+  A --> C[Results]
+  A --> D[At-risk identification]
+  B --> B1[Attendance rate %]
+  B --> B2[Absence days]
+  C --> C3[Component-wise marks]
+  C3 --> C31[Theory]
+  C3 --> C32[Practical]
+  C3 --> C33[Viva]
+  C3 --> C34[Internal]
+  C3 --> C35[Project]
 
-**Results entry screen (v1 UI)**
-- Screenshot: `v1_bca_basic_system/ui/screenshots/ui_05_results.png`
 
-(Optional: embed it)
-```md
-![Results entry screen](v1_bca_basic_system/ui/screenshots/ui_05_results.png)
-```
-
----
 
 ## Quick start (v1)
 ```bash
