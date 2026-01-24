@@ -112,12 +112,14 @@ This enhancement is fully supported across:
 - `logs/sample_logs_only/` — sample run logs (ETL/DQ/API)
 
 
+---
 
 ## Quick visuals (diagram + screenshot)
 
 **KPI tree (Mermaid)**
 - See: `docs/mermaid/kpi_tree.mmd`
 
+If you want it to **render directly on GitHub**, paste this into README:
 
 ```mermaid
 %% include the contents of docs/mermaid/kpi_tree.mmd here
@@ -130,6 +132,8 @@ This enhancement is fully supported across:
 ```md
 ![Results entry screen](v1_bca_basic_system/ui/screenshots/ui_05_results.png)
 ```
+
+---
 
 ## Quick start (v1)
 ```bash
