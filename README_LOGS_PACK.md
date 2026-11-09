@@ -3,7 +3,7 @@
 Generated: 19 Jan 2026 18:33 UTC
 
 Tentative portfolio windows:
-- v1 (baseline / academic-style): 01 Feb 2009 → 15 March 2009
+- v1 (baseline / academic-style): 02 Feb 2009 → 16 March 2009
 - v2 (modernisation / portfolio): 05 Dec 2025 → 14 Jan 2026
 
 How to use:
